@@ -63,7 +63,7 @@
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>nMOS 6502</dc:title><cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" /><dc:contributor><cc:Agent><dc:title>Based on the schematic by Balazs Beregnyei (balazs.beregnyei@gmail.com), with additional information from the Visual 6502 (www.visual6502.org) and BreakNES (breaknes.com). Please quote this information, my name and email, and the date of the version used in any re-use of this work. </dc:title></cc:Agent></dc:contributor><dc:creator><cc:Agent><dc:title>David MJ Calderbank (d.m.j.calderbank@bath.ac.uk)</dc:title></cc:Agent></dc:creator><dc:date>March 2020</dc:date><dc:rights><cc:Agent><dc:title>David MJ Calderbank</dc:title></cc:Agent></dc:rights></cc:Work><cc:License
-         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/"><cc:permits
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/"><cc:permits
            rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
            rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:requires
            rdf:resource="http://creativecommons.org/ns#Notice" /><cc:requires
