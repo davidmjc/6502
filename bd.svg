@@ -19,7 +19,7 @@
    id="svg11442"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="6502die.svg">
+   sodipodi:docname="bd.svg">
   <title
      id="title4553">6502 block diagram</title>
   <sodipodi:namedview
@@ -35,13 +35,13 @@
      inkscape:window-height="1003"
      id="namedview11840"
      showgrid="false"
-     inkscape:zoom="0.1533858"
+     inkscape:zoom="0.3067716"
      inkscape:cx="3528.83"
-     inkscape:cy="2892.254"
+     inkscape:cy="1588.352"
      inkscape:window-x="88"
      inkscape:window-y="36"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer2"
      showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-top="50"
@@ -2575,7 +2575,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="rect11754-6-4-9-3"
-       d="m 2626.809,21611.6 7289.463,0"
+       d="m 2626.809,23615.55 7289.463,0"
        style="fill:none;stroke:#000000;stroke-width:144.682312;stroke-linecap:butt;stroke-linejoin:miter;display:inline" />
     <path
        sodipodi:nodetypes="cc"
