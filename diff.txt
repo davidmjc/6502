@@ -1,1 +1,36 @@
+Changes to the instruction decode PLA/ROM
 
+A significant part of the random logic of the 6502 may be viewed
+as a space-optimized OR plane of the instruction decode PLA/ROM.
+To bring this out more clearly (and hence make the random logic
+easier to follow) the following changes have been made.
+
+1. Some of the lines of the AND plane have been reordered.
+2. The timing control lines of the read-modify-write cycle (denoted
+MEMOP/TA, TM and TW) have been fed into the AND plane.
+3. A couple of circuits have been simplified, notably in the logic
+driving the DL/DB control line and the ALU carry in.
+
+Other circuit differences
+
+1. Some copies of the br3 (branch T3) PLA output have been combined
+(e.g. by omitting a double inverter).
+2. Some copies of the ready-phi1 signal have been combined.
+3. The same circuit has been used for both halves of the decimal
+half carry (the 6502 has slightly different, but logically equivalent
+circuits for the two nibbles).
+
+Other layout differences
+
+1. Very little account is taken of differing transistor sizes, and (for
+clarity) wires do not pass over transistors.
+2. The instruction predecode logic has been laid out as a mini-PLA.
+3. The B flag flip-flop has been moved closer to the PLA.
+4. The reset, ready, set overflow and clock pads have been reordered.
+5. Ready control has been moved more centrally.
+6. The T1/SYNC flip-flop has been localized in the program control logic
+(in the original 6502 this flip-flop stretches across the chip).
+7. There are some differences in the layout of the clocks, ground and
+power, and these are not laid out properly as wires.
+8. The interrupt address lines cross the centre of the chip in different
+place from the original.
