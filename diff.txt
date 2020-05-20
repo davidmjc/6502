@@ -34,3 +34,6 @@ clarity) wires do not pass over transistors.
 power, and these are not laid out properly as wires.
 8. The interrupt address lines cross the centre of the chip in different
 place from the original.
+9. The pull-ups for the data path buses have been moved to convenient places.
+10. The ALU overflow and carry outputs have been routed alongside bit7 of
+the datapath and then directly into the flags i/o.
