@@ -80,6 +80,9 @@
        id="perspective42689" /></defs><style
      type="text/css"
      id="style8">
+       @font-face { font-family:Latin Modern Mono Caps; src:url("https://blogfonts.com/fonts/l/991/64991/file/lmmonocaps10-regular.otf") format(woff)}
+       .pressed { fill:#a00000 }
+       .detail.off { display:none }
        .wire.on path { stroke:#891e09;stroke-width:1.25 }
        .wire.on path.bar { stroke-width:6 }
        .wire:hover path { stroke:#b04000;stroke-width:1.25 }
@@ -103,7 +106,13 @@
        id="text6502"
        style="font-size:84px;font-family:Times New Roman"><tspan
          id="tspan6502">nMOS 6502</tspan></text>
-<g
+<rect
+       id="detail"
+       onclick="document.getElementById('Text-datapath').classList.toggle('off'),document.getElementById('Text-prog-ctrl').classList.toggle('off'),this.classList.toggle('pressed')"
+       x="600"
+       y="100"
+       height="40"
+       width="40" /><g
        id="ground"
        style="stroke:#b2d9a5;stroke-width:20"><path
          id="gnd-p0"
@@ -24031,7 +24040,8 @@
 </g><g
      inkscape:groupmode="layer"
      id="Text-datapath"
-     style="display:none;text-align:start;text-anchor:start;font-size:18px;font-family:Latin Modern Mono Caps"><text
+     class="detail off"
+     style="text-align:start;text-anchor:start;font-size:18px;font-family:Latin Modern Mono Caps"><text
        x="2626.5"
        y="3227"
        id="tsdp0">nor</text>
@@ -24106,7 +24116,8 @@
 </g><g
      inkscape:groupmode="layer"
      id="Text-prog-ctrl"
-     style="display:none;font-size:16px;text-align:center;text-anchor:middle;font-family:Latin Modern Mono Caps"><text
+     class="detail off"
+     style="font-size:16px;text-align:center;text-anchor:middle;font-family:Latin Modern Mono Caps"><text
        y="1062"
        x="2069"
        id="tsm0">!db0</text>
