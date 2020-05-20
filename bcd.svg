@@ -2009,7 +2009,7 @@
          id="notrdy"
          class="wire"
          onclick="this.classList.toggle('on')"><title
-           id="title0"> Ready bus !rdy </title><path
+           id="title-notrdy"> Ready bus !rdy </title><path
            id="nrdy131"
            style="stroke:#ff6600;stroke-width:1.25"
            d="m 1825.9,3573.4 0,285.4" /><path
@@ -2279,7 +2279,7 @@
          id="R/w"
          class="wire"
          onclick="this.classList.toggle('on')"><title
-           id="title1"> Read/write control db/ </title><g
+           id="title-dbRw"> Read/write control db/ </title><g
            id="pu42"><path
              id="pp42"
              class="pow"
@@ -2310,10 +2310,10 @@
              id="tg25"
              d="m 1185.3,2033 144.1,0 -0,-13.3 18.8,0 0,13.3 7.5,0 m 0,5.7 0,-11.4 m -7.5,-11 -18.8,0" /></g><path
            id="p11"
-           style="stroke:#803300;stroke-width:1.25"
+           style="stroke:#803380;stroke-width:1.25"
            d="m 2115.25,361.85 -21.75,0 -3.55,3.55 -3.55,-3.55 -3.55,0 -3.55,3.55 -3.55,-3.55 -4.25,0 -3.55,3.55 -3.55,-3.55 -6.95,0 0,34.7 -68.9,0 0,12.55 -34.7,0 -3.55,3.55 -3.55,-3.55 -28.75,0 0,71.85 -7.6,0 -3.55,3.55 -3.55,-3.55 -4.25,0 -3.55,3.55 -3.55,-3.55 -4.85,0 -3.55,3.55 -3.55,-3.55 -4.9,0 -3.55,3.55 -3.55,-3.55 -107.3,0 0,51.7 -44.6,0 -3.55,3.55 -3.55,-3.55 -6.25,0 -3.55,3.55 -3.55,-3.55 -11,0 -3.55,3.55 -3.55,-3.55 -122.3,0 -3.55,3.55 -3.55,-3.55 -22.5,0 0,39.7 -9.8,0 -3.55,3.55 -3.55,-3.55 -6.3,0 -3.55,3.55 -3.55,-3.55 -5.9,0 -3.55,3.55 -3.55,-3.55 -5.9,0 -3.55,3.55 -3.55,-3.55 -279.7,0 -3.55,3.55 -3.55,-3.55 -17,0 -3.55,3.55 -3.55,-3.55 -285.8,0 0,-26.1 -685.8,0 -3.55,3.55 -3.55,-3.55 -8.25,0" /><path
            id="p12"
-           style="stroke:#803300;stroke-width:1.25"
+           style="stroke:#803380;stroke-width:1.25"
            d="m 1185.7,2033.1 0,-109.6 -7.9,0 -3.55,3.55 -3.55,-3.55 -16.7,0 -3.55,3.55 -3.55,-3.55 -8.6,0 0,-714 35.6,0 0,-217 -7.55,0 -3.55,3.55 -3.55,-3.55 -5.55,0 -3.55,3.55 -3.55,-3.55 -4.9,0 -3.55,3.55 -3.55,-3.55 -7.7,0 0,-164.8 23.2,0 0,-196.5 -23.45,0 0,-58.8" /></g><g
          id="1/V"
          class="wire"
@@ -3042,7 +3042,7 @@
          width="4700"
          height="4500" /></g><g
        id="data-Rw"><title
-         id="title2">Data bus output</title><g
+         id="title-dataRw">Data bus output</title><g
          class="wire"
          onclick="this.classList.toggle('on')"
          id="data-R/w"><g
@@ -3211,7 +3211,7 @@
          id="b-ib7"
          d="m 1625.55,359.1 82.65,0 0,-167.5 937.75,0 3.55,3.55 3.55,-3.55 213.4,0 3.55,3.55 3.55,-3.55 213.4,0 3.55,3.55 3.55,-3.55 213.4,0 3.55,3.55 3.55,-3.55 213.4,0 3.55,3.55 3.55,-3.55 213.4,0 3.55,3.55 3.55,-3.55 213.4,0 3.55,3.55 3.55,-3.55 217,0" /></g><g
        id="R/wP"><title
-         id="title-rw"> Read/!write pad</title><path
+         id="title-rwp"> Read/!write pad</title><path
          id="p34"
          class="xlarge"
          d="m 146.6,258.6 0,-50 -72,0" /><path
@@ -3448,7 +3448,7 @@
          id="p49"
          d="m 189.95,2666.6 0,-98" /></g><g
        id="CP1gen"><title
-         id="title3"> CP1 generation</title><path
+         id="title-CP1g"> CP1 generation</title><path
          id="p50"
          d="m 189.95,1356.9 0,-87.45" /><path
          id="p51"
@@ -3578,7 +3578,7 @@
          class="large"
          d="m 155.2,3100.2 0,41.8 -89.8,0" /></g><g
        id="CP2gen"><title
-         id="title4"> CP2 generation</title><path
+         id="title-CP2g"> CP2 generation</title><path
          id="cp2g-p0"
          d="m 190.3,1162.7 0,-14.2 -67.3,0 -3.55,-3.55 -3.55,3.55 -46.1,0 0,-77.95 49.6,0" /><path
          id="cp2g-p1"
@@ -3810,7 +3810,7 @@
          id="p65"
          d="m 198.6,1813.9 -54.2,0" /></g><g
        id="rdyP"><title
-         id="title-rdy"> Ready pad</title><path
+         id="title-rdypad"> Ready pad</title><path
          id="p-pad-n9"
          class="pad"
          d="m 79.05,2083.3 0,-28.15 -26.55,0 0,28.15 z" /><path
@@ -6446,7 +6446,7 @@
            id="p144"
            d="m 1606.8,1104.45 -25.8,0 -3.55,3.55 -3.55,-3.55 -9.55,0 0,-192.8 -8.7,0 -3.55,3.55 -3.55,-3.55 -7,0 -3.55,3.55 -3.55,-3.55 -5.9,0 -3.55,3.55 -3.55,-3.55 -9.75,0 0,-405.95" /></g></g><g
        id="Treset"><title
-         id="titleTres"> Cycle counter reset</title><g
+         id="title-Tres"> Cycle counter reset</title><g
          id="w76"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -6665,7 +6665,8 @@
            d="m 1173.7,1543.65 8.1,0 3.55,3.55 3.55,-3.55 5.3,0 3.55,3.55 3.55,-3.55 44.45,0" /></g><g
          id="tresx"
          class="wire"
-         onclick="this.classList.toggle('on')"><g
+         onclick="this.classList.toggle('on')"><title
+           id="title-tresx"> Cycle counter reset tresx</title><g
            id="pu175"><path
              id="pp181"
              class="pow"
@@ -6697,7 +6698,7 @@
          id="tres0"
          class="wire"
          onclick="this.classList.toggle('on')"><title
-           id="title5">Timer reset T0</title><g
+           id="title-tres0">Timer reset T0</title><g
            id="s80"><path
              id="sc81"
              d="m 1393.5,467.9 0,-11.05" /><path
@@ -7108,7 +7109,7 @@
            id="p161"
            d="m 1899.15,1970.9 -88.2,0 -3.55,3.55 -3.55,-3.55 -14.75,0" /></g></g><g
        id="carry-info"><title
-         id="title6">Carry control input</title><g
+         id="title-Cin-ctrl">Carry control input</title><g
          id="w88"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -7175,7 +7176,7 @@
              class="bar"
              d="m 1248.4,2539.5 m -7.5,10.5 -18.8,0" /></g></g></g><g
        id="RRCC"><title
-         id="titleRRCC"> Rotate right carry control</title><path
+         id="title-RRCC"> Rotate right carry control</title><path
          id="fb22"
          class="flag"
          d="m 1331.65,2801.2 7.65,-4.4 7.65,4.4 0,8.8 -7.65,4.4 -7.65,-4.4 z" /><g
@@ -7405,7 +7406,7 @@
            id="p166"
            d="m 1403.4,2868.35 26.75,0 3.55,3.55 3.55,-3.55 9.4,0 0,-89.25 9.75,0 3.55,3.55 3.55,-3.55 6.2,0 3.55,3.55 3.55,-3.55 5.7,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 6.3,0 3.55,3.55 3.55,-3.55 5.8,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 6.3,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 19.8,0 3.55,3.55 3.55,-3.55 56.05,0 3.55,3.55 3.55,-3.55 114.85,0 3.55,3.55 3.55,-3.55 3.65,0 3.55,3.55 3.55,-3.55 3.2,0 3.55,3.55 3.55,-3.55 12.6,0" /></g></g><g
        id="RdyRw"><title
-         id="titleRRW">Ready and read/write control</title><path
+         id="title-RRW">Ready and read/write control</title><path
          id="fb23"
          class="flag"
          d="m 1330.4,2042.05 7.65,-4.4 7.65,4.4 0,8.8 -7.65,4.4 -7.65,-4.4 z" /><g
@@ -7510,7 +7511,7 @@
              class="bar"
              d="m 1387.3,1832.1 m 7.5,10.5 18.8,0" /></g></g></g><g
        id="resG"><title
-         id="title7">Reset flip-flop resG</title><path
+         id="title-resGff">Reset flip-flop resG</title><path
          id="fb24"
          class="flag"
          d="m 1283.4,3963.2 7.65,-4.4 7.65,4.4 0,8.8 -7.65,4.4 -7.65,-4.4 z" /><g
@@ -7602,7 +7603,7 @@
            id="p175"
            d="m 1243.8,2012.65 -54.7,0 -3.55,3.55 -3.55,-3.55 -4.55,0 -3.55,3.55 -3.55,-3.55 -4.75,0 -3.55,3.55 -3.55,-3.55 -4.9,0 -3.55,3.55 -3.55,-3.55 -8.35,0 0,1880.35 20.6,0 3.55,3.55 3.55,-3.55 16.7,0 3.55,3.55 3.55,-3.55 36.8,0" /></g></g><g
        id="intG"><title
-         id="title8">Interrupt control intG</title><path
+         id="title-intGff">Interrupt control intG</title><path
          id="fb25"
          class="flag"
          d="m 1243.75,4341.3 7.65,-4.4 7.65,4.4 0,8.8 -7.65,4.4 -7.65,-4.4 z" /><g
@@ -7690,9 +7691,10 @@
              d="m 1318.2,4319.3 -9.2,0 0,9.8 -11,0 0,-9.8 -8.9,0" /><path
              id="ss127"
              d="m 1303.3,4336.8 0,-5.25" /></g></g><g
-         id="w109"
+         id="brk6e"
          class="wire"
-         onclick="this.classList.toggle('on')"><g
+         onclick="this.classList.toggle('on')"><title
+           id="title-brk6e">Interrupt control brk6e</title><g
            id="pu211"><path
              id="pp217"
              class="pow"
@@ -7793,7 +7795,7 @@
              id="ts418"
              d="m 1318.15,4297.5 -20.5,0" /></g></g></g><g
        id="nmiL"><title
-         id="title9">Nonmaskable interrupt nmiL</title><path
+         id="title-nmiLff">Nonmaskable interrupt nmiL</title><path
          id="fb26"
          class="flag"
          d="m 841.75,4341.3 7.65,-4.4 7.65,4.4 0,8.8 -7.65,4.4 -7.65,-4.4 z" /><g
@@ -7918,7 +7920,7 @@
            id="p182"
            d="m 944.25,4230 -143.1,0 0,34.5" /></g></g><g
        id="nmiG"><title
-         id="title10">Nonmaskable interrupt nmiG</title><path
+         id="title-nmiGff">Nonmaskable interrupt nmiG</title><path
          id="fb27"
          class="flag"
          d="m 991.6,4341.3 7.65,-4.4 7.65,4.4 0,8.8 -7.65,4.4 -7.65,-4.4 z" /><g
@@ -8031,7 +8033,8 @@
              d="m 1219.2,4114.1 m 7.5,10.5 18.8,0" /></g></g><g
          id="w121"
          class="wire"
-         onclick="this.classList.toggle('on')"><path
+         onclick="this.classList.toggle('on')"><title
+           id="titleSIA1"> Set interrupt address 0/adl1</title><path
            id="p186"
            d="m 2807,3996 -193.05,0 -3.55,3.55 -3.55,-3.55 -135.45,0 0,86.9 -310.45,0 -3.55,3.55 -3.55,-3.55 -200,0 -3.55,3.55 -3.55,-3.55 -444.35,0 -3.55,3.55 -3.55,-3.55 -22.7,0 0,86.4 -22.7,0 -3.55,3.55 -3.55,-3.55 -5.7,0 -3.55,3.55 -3.55,-3.55 -124.45,0 -3.55,3.55 -3.55,-3.55 -63,0" /><g
            id="s111"><path
@@ -8096,7 +8099,8 @@
              d="m 1388.35,4079.55 m 7.5,10.5 18.8,0" /></g></g><g
          id="w124"
          class="wire"
-         onclick="this.classList.toggle('on')"><path
+         onclick="this.classList.toggle('on')"><title
+           id="titleSIA2"> Set interrupt address 0/adl2</title><path
            id="p187"
            d="m 3027.35,3986.4 -192.25,0 -3.55,3.55 -3.55,-3.55 -214.05,0 -3.55,3.55 -3.55,-3.55 -145.95,0 0,83.35 -299.95,0 -3.55,3.55 -3.55,-3.55 -200,0 -3.55,3.55 -3.55,-3.55 -444.35,0 -3.55,3.55 -3.55,-3.55 -36.15,0 0,73.5 -9.25,0 -3.55,3.55 -3.55,-3.55 -5.7,0 -3.55,3.55 -3.55,-3.55 -25.1,0" /><g
            id="s112"><path
@@ -8149,7 +8153,8 @@
              d="m 1363.95,4046.95 -9.4,0" /></g></g><g
          id="w126"
          class="wire"
-         onclick="this.classList.toggle('on')"><g
+         onclick="this.classList.toggle('on')"><title
+           id="titleSIA0"> Set interrupt address 0/adl0</title><g
            id="s113"><path
              id="sc114"
              d="m 1373.85,4344.75 -11.05,0" /><path
@@ -8279,7 +8284,8 @@
            d="m 1359.35,3240.3 -101.25,0" /></g><g
          id="dobrk"
          class="wire"
-         onclick="this.classList.toggle('on')"><g
+         onclick="this.classList.toggle('on')"><title
+         id="title-dobrk"> B flag output dobrk</title><g
            id="t462"><path
              id="tg303"
              d="m 1375.95,3214.65 0,16 -13.3,0 0,18.8 13.3,0 0,7.5 m 5.7,0 -11.4,0 m -11,-7.5 0,-18.8" /><path
@@ -13472,7 +13478,7 @@
            class="bar"
            d="m 2004.7,3785 m -7.5,-10.5 -18.8,0" /></g></g><g
        id="ADL-out"><title
-         id="titleADL"> ADL output control</title><g
+         id="title-ADLout"> ADL output control</title><g
          id="w130"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -13561,7 +13567,7 @@
            id="p211"
            d="m 1245.5,2351.3 20.9,0 0,52.9 151.75,0 3.55,3.55 3.55,-3.55 5,0 3.55,3.55 3.55,-3.55 9.45,0 0,200.35 9.6,0 3.55,3.55 3.55,-3.55 6.2,0 3.55,3.55 3.55,-3.55 5.7,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 6.3,0 3.55,3.55 3.55,-3.55 5.8,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 6.3,0 3.55,3.55 3.55,-3.55 5.9,0 3.55,3.55 3.55,-3.55 9.3,0 0,1451.6 356.3,0 3.55,3.55 3.55,-3.55 203.2,0 0,66.9 76.1,0" /></g></g><g
        id="ADH-out"><title
-         id="titleADH"> ADH output control</title><g
+         id="title-ADHout"> ADH output control</title><g
          id="w134"
          class="wire"
          onclick="this.classList.toggle('on')"><path
@@ -13699,7 +13705,7 @@
              id="ts486"
              d="m 1881.35,4005.05 60,0 0,-16.6" /></g></g></g><g
        id="S-ctrl"><title
-         id="titleS"> S register control</title><g
+         id="title-Sctrl"> S register control</title><g
          id="w139"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -13786,7 +13792,7 @@
              id="ts491"
              d="m 1915.9,3580.9 0,-7.75" /></g></g></g><g
        id="alu-input-ctrl"><title
-         id="titleAI"> ALU input control</title><g
+         id="title-ALUin-ctrl"> ALU input control</title><g
          id="w143"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -13951,7 +13957,7 @@
              id="ts504"
              d="m 1890.9,3565.5 0,7.75" /></g></g></g><g
        id="alu-op-ctrl"><title
-         id="titleAO"> ALU operation control</title><g
+         id="title-ALUop-ctrl"> ALU operation control</title><g
          id="w150"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -14395,7 +14401,7 @@
              class="bar"
              d="m 1755.7,2608.6 m 7.5,10.5 18.8,0" /></g></g></g><g
        id="alu-output-ctrl"><title
-         id="titleAop"> ALU output control</title><g
+         id="title-ALUout-ctrl"> ALU output control</title><g
          id="w165"
          class="wire"
          onclick="this.classList.toggle('on')"><path
@@ -14548,7 +14554,7 @@
            id="p239"
            d="m 2233.3,2541.1 -62.1,0 -3.55,3.55 -3.55,-3.55 -3.5,0 -3.55,3.55 -3.55,-3.55 -3.15,0 -3.55,3.55 -3.55,-3.55 -3.4,0 -3.55,3.55 -3.55,-3.55 -3.4,0 -3.55,3.55 -3.55,-3.55 -3.9,0 -3.55,3.55 -3.55,-3.55 -100.9,0" /></g></g><g
        id="bus-ctrl"><title
-         id="titleBus"> Bus control</title><g
+         id="title-bus-ctrl"> Bus control</title><g
          id="w171"
          class="wire"
          onclick="this.classList.toggle('on')"><path
@@ -14824,7 +14830,7 @@
              id="ss213"
              d="m 1929.8,2098.5 9.9,0" /></g></g></g><g
        id="PC-ctrl"><title
-         id="titlePC"> Program counter control</title><g
+         id="title-PCctrl"> Program counter control</title><g
          id="w182"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -15228,7 +15234,7 @@
            id="p266"
            d="m 2004.6,1525.25 27.6,0 3.55,3.55 3.55,-3.55 7.7,0" /></g></g><g
        id="DL-ctrl"><title
-         id="titleDL"> Data input control</title><g
+         id="title-DLctrl"> Data input control</title><g
          id="w197"
          class="wire"
          onclick="this.classList.toggle('on')"><path
@@ -15437,7 +15443,7 @@
              id="ts611"
              d="m 2045.9,1315.5 -9.85,0" /></g></g></g><g
        id="br-ctrl"><title
-         id="titleBr"> Branch control</title><g
+         id="title-br-ctrl"> Branch control</title><g
          id="w206"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -15681,7 +15687,7 @@
            id="p278"
            d="m 1791,938.55 26.25,0" /></g></g><g
        id="brfw"><title
-         id="title153">Branch forward flip-flop</title><path
+         id="title-brfwff">Branch forward flip-flop</title><path
          id="fb29"
          class="flag"
          d="m 1673.5,419.9 -7.65,-4.4 -7.65,4.4 0,8.8 7.65,4.4 7.65,-4.4 z" /><g
@@ -19891,7 +19897,7 @@
              id="ss337"
              d="m 2270.15,1429.25 0,-5.2" /></g></g></g><g
        id="Yreg"><title
-         id="title154">Y index register</title><g
+         id="titleY">Y index register</title><g
          id="y0"><g
            id="w-!y0"
            class="wire"
@@ -19968,7 +19974,7 @@
          x="1543.5"
          xlink:href="#y0" /></g><g
        id="Xreg"><title
-         id="title155">X index register</title><g
+         id="titleX">X index register</title><g
          id="x0"><g
            id="w-!x0"
            class="wire"
@@ -20045,7 +20051,7 @@
          x="1543.5"
          xlink:href="#x0" /></g><g
        id="Sreg"><title
-         id="title156">S stack pointer</title><g
+         id="titleS">S stack pointer</title><g
          id="sp0"><g
            id="w251"
            class="wire"
@@ -20240,7 +20246,7 @@
          x="1323"
          xlink:href="#a1-sb" /></g><g
        id="alu-in"><title
-         id="title157">ALU inputs</title><g
+         id="title-ALUin">ALU inputs</title><g
          class="wire"
          onclick="this.classList.toggle('on')"
          id="aluB0"><path
@@ -20343,7 +20349,7 @@
          x="1543.5"
          xlink:href="#aluA0" /></g><g
        id="alu-andor"><title
-         id="title158">ALU and/or</title><g
+         id="title-ALUandor">ALU and/or</title><g
          class="wire"
          onclick="this.classList.toggle('on')"
          id="alu-nand0"><g
@@ -20613,7 +20619,7 @@
            id="p408"
            d="m 4201.5,2980.1 -9.6,0 -3.55,3.55 -3.55,-3.55 -28,0 -3.55,3.55 -3.55,-3.55 -21.25,0" /></g></g><g
        id="alu-xor"><title
-         id="title159">ALU xor</title><g
+         id="title-ALUxor">ALU xor</title><g
          class="wire"
          onclick="this.classList.toggle('on')"
          id="alu-xor0"><path
@@ -20786,7 +20792,7 @@
            id="p427"
            d="m 4201.5,2972.6 15.1,0 3.55,3.55 3.55,-3.55 27.9,0 3.55,3.55 3.55,-3.55 8.8,0" /></g></g><g
        id="alu-add"><title
-         id="title160">ALU add</title><g
+         id="title-ALUadd">ALU add</title><g
          id="alu-or0"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -21334,7 +21340,7 @@
          xlink:href="#alu-add0"
          id="alu-add7" /></g><g
        id="dca"><title
-         id="title161">ALU decimal carry adjust</title><g
+         id="title-ALUdc">ALU decimal carry adjust</title><g
          id="dc0"
          class="wire"
          onclick="this.classList.toggle('on')"><g
@@ -21599,7 +21605,7 @@
            id="p469"
            d="m 4348.5,2687.95 -4.7,0 -3.55,3.55 -3.55,-3.55 -52.5,0" /></g></g><g
        id="alu-out"><title
-         id="title162">ALU output</title><g
+         id="title-ALUout">ALU output</title><g
          class="wire"
          onclick="this.classList.toggle('on')"
          id="nalu0"><path
@@ -21847,7 +21853,7 @@
          xlink:href="#alu0"
          x="1543.5" /></g><g
        id="alu-overflow"><title
-         id="title163">ALU signed overflow</title><g
+         id="title-ALUVout">ALU signed overflow</title><g
          class="wire"
          onclick="this.classList.toggle('on')"
          id="alu-and7c"><path
@@ -21941,7 +21947,7 @@
          class="wire"
          onclick="this.classList.toggle('on')"
          id="Cin/alu"><title
-           id="title164">ALU carry in 1/aluC</title><path
+           id="title-ALUCin">ALU carry in 1/aluC</title><path
            id="p494"
            class="data"
            d="m 2627.65,2909.5 -13.4,0 -3.55,3.55 -3.55,-3.55 -41.4,0 -3.55,3.55 -3.55,-3.55 -87.65,0" /><g
@@ -21964,7 +21970,7 @@
          id="alu-cout"
          class="wire"
          onclick="this.classList.toggle('on')"><title
-           id="title75797">ALU carry out !Cout</title><g
+           id="title-ALUcout">ALU carry out !Cout</title><g
            id="t943"><path
              id="tg717"
              d="m 4188.6,2892.9 0,7.5 -13.3,0 0,18.8 13.3,0 0,7.5 m 5.7,0 -11.4,0 m -11,-7.5 0,-18.8" /><path
@@ -22047,7 +22053,7 @@
          class="data"
          d="m 3459.5,2600 0,-235.5" /></g><g
        id="dasa"><title
-         id="title165">Decimal add/subtract adjust</title><g
+         id="title-dasa">Decimal add/subtract adjust</title><g
          id="w255"
          class="wire"
          onclick="this.classList.toggle('on')"><path
@@ -22589,7 +22595,7 @@
            id="p523"
            d="m 3095.7,2392.3 -38.8,0 -3.55,3.55 -3.55,-3.55 -42.95,0 -3.55,3.55 -3.55,-3.55 -64,0 -3.55,3.55 -3.55,-3.55 -28,0 -3.55,3.55 -3.55,-3.55 -58.4,0 -3.55,3.55 -3.55,-3.55 -42.5,0 -3.55,3.55 -3.55,-3.55 -62.6,0 -3.55,3.55 -3.55,-3.55 -28,0 -3.55,3.55 -3.55,-3.55 -12.25,0 -3.55,3.55 -3.55,-3.55 -6.2,0" /></g></g><g
        id="PCH"><title
-         id="title166">PCH Program Counter High</title><path
+         id="titlePCH">PCH Program Counter High</title><path
          id="fb40"
          class="bit"
          d="m 2631.5,1791.7 5.9,-3.4 5.9,3.4 0,6.8 -5.9,3.4 -5.9,-3.4 z" /><path
@@ -23121,7 +23127,7 @@
            id="p545"
            d="m 2495.7,1696.9 63.4,0 3.55,3.55 3.55,-3.55 40.9,0 3.55,3.55 3.55,-3.55 40.9,0 3.55,3.55 3.55,-3.55 11.9,0 3.55,3.55 3.55,-3.55 27.9,0 3.55,3.55 3.55,-3.55 63.4,0 3.55,3.55 3.55,-3.55 40.9,0 3.55,3.55 3.55,-3.55 40.9,0 3.55,3.55 3.55,-3.55 11.9,0 3.55,3.55 3.55,-3.55 27.9,0 3.55,3.55 3.55,-3.55 63.4,0 3.55,3.55 3.55,-3.55 40.9,0 3.55,3.55 3.55,-3.55 40.9,0 3.55,3.55 3.55,-3.55 11.9,0 3.55,3.55 3.55,-3.55 27.9,0 3.55,3.55 3.55,-3.55 63.4,0 3.55,3.55 3.55,-3.55 40.9,0 3.55,3.55 3.55,-3.55 40.9,0 3.55,3.55 3.55,-3.55 11.9,0 3.55,3.55 3.55,-3.55 27.9,0 3.55,3.55 3.55,-3.55 56.1,0 0,-140.05 8.1,0 3.55,3.55 3.55,-3.55 108.25,0 3.55,3.55 3.55,-3.55 3.9,0" /></g></g><g
        id="PCL"><title
-         id="title167">PCL Program Counter Low</title><path
+         id="titlePCL">PCL Program Counter Low</title><path
          id="fb48"
          class="bit"
          d="m 2846.5,1213.7 5.9,-3.4 5.9,3.4 0,6.8 -5.9,3.4 -5.9,-3.4 z" /><path
@@ -23778,10 +23784,10 @@
          style="stroke:#dd66bb;stroke-width:12" /><path
          id="pth77-9-0-36-7"
          d="m 140,411 0,140 2422,0"
-         style="stroke:#803300;stroke-width:12" /><path
+         style="stroke:#803380;stroke-width:12" /><path
          id="pth77-9-0-36"
          d="m 1170,2117 -32,0 0,-1562"
-         style="stroke:#803300;stroke-width:12" /><path
+         style="stroke:#803380;stroke-width:12" /><path
          id="pth94-0"
          style="fill:none;stroke:#ff6600;stroke-width:12"
          d="m 1430,2957 42,0 m -42,-720 42,0 m -1234,-274 932,0 m 260,-866 42,0 m -42,420 180,0 m -180,-650 180,0 m -441,-367 0,165 308,0 0,1300 -50,0 m 50,0 0,2480 -740,0 m 733,-440 140,0 m -140,-408 140,0" /><path
@@ -24615,7 +24621,7 @@
        height="100"
        id="r110"
        style="fill:#f4eed7" /></g><text
-     style="font-size:96px;font-family:Latin Modern Mono Caps;text-align:center;text-anchor:middle"
+     style="font-size:96px;font-family:Latin Modern Mono Caps,Inconsolata;text-align:center;text-anchor:middle"
      class="diag"
      x="-2700"
      y="2350"
@@ -24628,7 +24634,7 @@
      id="Text-main"
      class="diag"
      inkscape:groupmode="layer"
-     style="font-family:Latin Modern Mono Caps;font-size:72px;text-align:center;text-anchor:middle"
+     style="font-family:Latin Modern Mono Caps,Inconsolata;font-size:72px;text-align:center;text-anchor:middle"
      xml:space="preserve"><g
        id="pad-names"
        style="font-size:84px;text-align:center;text-anchor:middle"><text
@@ -25456,7 +25462,7 @@
            x="4309"
            y="1951">adh/</tspan></text>
 <text
-         style="font-size:54px;text-align:center;text-anchor:middle;fill:#008066;font-family:Latin Modern Mono Caps"
+         style="font-size:54px;text-align:center;text-anchor:middle;fill:#008066"
          id="tx416-2-9"
          y="1560"
          x="-1091"
@@ -25473,7 +25479,7 @@
            x="1288"
            id="tsp448-0-2-9">1/V</tspan></text>
 <text
-         style="fill:#803300"
+         style="fill:#803380"
          id="tx416-2-9-2-7"
          y="530"
          x="206"><tspan
@@ -25484,7 +25490,7 @@
      id="Text-detail"
      class="diag hide"
      inkscape:groupmode="layer"
-     style="font-family:Latin Modern Mono Caps"><g
+     style="font-family:Latin Modern Mono Caps,Inconsolata"><g
        id="pla-inputs"
        style="font-size:24px;text-align:end;text-anchor:end"><text
          id="tx37"
@@ -28101,8 +28107,8 @@
          d="m 4009,1465 36,0" /></g></g><g
      inkscape:groupmode="layer"
      id="Text-regions"
-     class="diag off"
-     style="text-align:start;text-anchor:start;font-size:24px;font-family:Latin Modern Mono Caps"><text
+     class="diag"
+     style="text-align:start;text-anchor:start;font-size:24px;font-family:Latin Modern Mono Caps,Courier"><text
        x="2417.5"
        y="436"
        id="tsr0">N flag</text>
@@ -28289,11 +28295,11 @@
 <text
        id="tsr46"
        x="1282"
-       y="2363">adl output</text>
+       y="2363">ADL output</text>
 <text
        id="tsr47"
        x="1680"
-       y="3867">adh output</text>
+       y="3867">ADH output</text>
 <text
        y="1741"
        x="1192"
@@ -28430,7 +28436,7 @@
      inkscape:groupmode="layer"
      id="Text-flip/flops"
      class="diag off"
-     style="text-align:start;text-anchor:start;font-size:18px;font-family:Latin Modern Mono Caps"><text
+     style="text-align:start;text-anchor:start;font-size:18px;font-family:Latin Modern Mono Caps,Courier"><text
        x="2450"
        y="917"
        id="tsff0">D</text>
@@ -28546,7 +28552,7 @@
      inkscape:groupmode="layer"
      id="Text-datapath"
      class="diag off hide"
-     style="text-align:start;text-anchor:start;font-size:18px;font-family:Latin Modern Mono Caps"><text
+     style="text-align:start;text-anchor:start;font-size:18px;font-family:Latin Modern Mono Caps,Courier"><text
        x="2626.5"
        y="3227"
        id="tsdp0">nor</text>
@@ -28622,7 +28628,7 @@
      inkscape:groupmode="layer"
      id="Text-prog-ctrl"
      class="diag off hide"
-     style="font-size:16px;text-align:center;text-anchor:middle;font-family:Latin Modern Mono Caps"><text
+     style="font-size:16px;text-align:center;text-anchor:middle;font-family:Latin Modern Mono Caps,Courier"><text
        y="1062"
        x="2069"
        id="tsm0">!db0</text>
@@ -29838,7 +29844,7 @@
      inkscape:groupmode="layer"
      id="Text-ctrl-lines"
      class="diag off"
-     style="font-size:18px;text-align:start;text-anchor:start;font-family:Latin Modern Mono Caps"><text
+     style="font-size:18px;text-align:start;text-anchor:start;font-family:Latin Modern Mono Caps,Courier"><text
        x="2380"
        y="1173.5"
        id="tsc28">DL/db</text>
@@ -30022,7 +30028,7 @@
      inkscape:groupmode="layer"
      id="Text-pla-or"
      class="diag off"
-     style="text-align:start;text-anchor:start;font-size:18px;font-family:Latin Modern Mono Caps"><text
+     style="text-align:start;text-anchor:start;font-size:18px;font-family:Latin Modern Mono Caps,Courier"><text
        x="1018"
        y="4064"
        id="tspo0">1 Ysb!</text>
@@ -30310,7 +30316,7 @@
      inkscape:groupmode="layer"
      id="Text-pla-and"
      class="diag off"
-     style="text-align:end;text-anchor:end;font-size:14px;font-family:Latin Modern Mono Caps"><text
+     style="text-align:end;text-anchor:end;font-size:14px;font-family:Latin Modern Mono Caps,Courier"><text
        y="570"
        x="809"
        id="tsm290">T1/0</text>
