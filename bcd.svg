@@ -25419,7 +25419,7 @@
          y="2727"
          id="tx431"
          style="font-size:72px"><tspan
-           x="3250"
+           x="3230"
            y="2727"
            id="tsp463">Decimal</tspan><tspan
            x="3580"
@@ -27250,18 +27250,18 @@
            y="4318">T2</tspan></text>
 <text
          x="1371"
-         y="464"
+         y="414"
          id="tx391"><tspan
            id="tsp423"
            x="1371"
-           y="464">2cycle</tspan></text>
+           y="414">2cycle</tspan></text>
 <text
          x="1452"
-         y="514"
+         y="474"
          id="tx392"><tspan
            id="tsp424"
            x="1452"
-           y="514">1byte</tspan></text>
+           y="474">1byte</tspan></text>
 <text
          x="691"
          y="428"
@@ -27519,10 +27519,10 @@
          d="m 2168,1072 0,36" /><path
          style="stroke:#000000;stroke-width:5px;marker-end:url(#Arrow2Send)"
          id="pth182"
-         d="m 1279,450 -38,0" /><path
+         d="m 1279,400 -38,0" /><path
          style="stroke:#000000;stroke-width:5px;marker-end:url(#Arrow2Send)"
          id="pth183"
-         d="m 1528,502 38,0" /><path
+         d="m 1528,460 38,0" /><path
          style="stroke:#000000;stroke-width:5px;marker-end:url(#Arrow2Send)"
          id="pth184"
          d="m 1674,357 -45,0" /><path
