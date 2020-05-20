@@ -24621,7 +24621,7 @@
        height="100"
        id="r110"
        style="fill:#f4eed7" /></g><text
-     style="font-size:96px;font-family:Latin Modern Mono Caps,Inconsolata;text-align:center;text-anchor:middle"
+     style="font-size:96px;font-family:Latin Modern Mono Caps,Consolas;text-align:center;text-anchor:middle"
      class="diag"
      x="-2700"
      y="2350"
@@ -24634,7 +24634,7 @@
      id="Text-main"
      class="diag"
      inkscape:groupmode="layer"
-     style="font-family:Latin Modern Mono Caps,Inconsolata;font-size:72px;text-align:center;text-anchor:middle"
+     style="font-family:Latin Modern Mono Caps,Consolas;font-size:72px;text-align:center;text-anchor:middle"
      xml:space="preserve"><g
        id="pad-names"
        style="font-size:84px;text-align:center;text-anchor:middle"><text
@@ -25419,9 +25419,11 @@
          y="2727"
          id="tx431"
          style="font-size:72px"><tspan
-           x="3394"
+           x="3250"
            y="2727"
-           id="tsp463">Decimal   Carry</tspan></text>
+           id="tsp463">Decimal</tspan><tspan
+           x="3580"
+           y="2727">Carry</tspan></text>
 <text
          x="3410"
          y="2351"
