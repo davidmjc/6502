@@ -4663,7 +4663,8 @@
          id="titlePPLA"> Predecode PLA</title><g
          id="w29"
          class="wire"
-         onclick="this.classList.toggle('on')"><path
+         onclick="this.classList.toggle('on')"><title
+         id="titlePPLA"> Predecode PLA 1byte output</title><path
            id="p91"
            d="m 1419.9,144.65 0,4.25 3.55,3.55 -3.55,3.55 0,17.7 3.55,3.55 -3.55,3.55 0,17.7 3.55,3.55 -3.55,3.55 0,42.5 3.55,3.55 -3.55,3.55 0,17.7 3.55,3.55 -3.55,3.55 0,17.7 3.55,3.55 -3.55,3.55 0,17.7 3.55,3.55 -3.55,3.55 0,36.35 3.55,3.55 -3.55,3.55 0,47.8" /><path
            id="p92"
@@ -4812,7 +4813,8 @@
            d="m 1452.2,390.65 10.5,0" /></g><g
          id="w34"
          class="wire"
-         onclick="this.classList.toggle('on')"><path
+         onclick="this.classList.toggle('on')"><title
+         id="titlePPLA"> Predecode PLA 2cycle output</title><path
            id="scw1"
            d="m 1403.7,399 -45.65,0 0,-4.15 9.8,0 0,-11 -9.8,0 0,-4.4 m 4.3,0 -8.6,0 m 16.45,15.5 0,-11.05 m 3.5,5.4 -3.5,0" /><path
            id="scw2"
@@ -25492,7 +25494,7 @@
      id="Text-detail"
      class="diag hide"
      inkscape:groupmode="layer"
-     style="font-family:Latin Modern Mono Caps,Inconsolata"><g
+     style="font-family:Latin Modern Mono Caps,Consolas"><g
        id="pla-inputs"
        style="font-size:24px;text-align:end;text-anchor:end"><text
          id="tx37"
